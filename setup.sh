@@ -90,7 +90,7 @@ tput setaf 2
 	sleep 2
 	mkdir -p ~/bin
 	PATH=~/bin:$PATH
-	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+	curl https://raw.githubusercontent.com/etnperlong/ResurrectedScripts/marshmallow/repo > ~/bin/repo
 	chmod a+x ~/bin/repo
 clear
 tput setaf 3
