@@ -74,7 +74,7 @@ tput setaf 3
 	echo Setting up ccache
 	echo 
 tput setaf 2 	
-	git clone https://git.samba.org/ccache.git
+	git clone https://github.com/ccache/ccache.git -b master
 	cd ccache
 	./autogen.sh
 	./configure
